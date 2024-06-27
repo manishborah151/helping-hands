@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="phone.css" />
+    <title>halping hand</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source
+        src="Y2meta.app-Abstract Circle Background Video, 4K Blue Geometry Motion Background Loop _ Free Stock Footage-(1080p).mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div class="whatsapp">
+      <img src="imgs/whatsapp-svgrepo-com.svg" alt="" />
+    </div>
+    <div class="header">
+      <div id="myNav" class="overlay">
+        <div class="overlay-content">
+          <a href="booking.html">BOOK NOW!!</a>
+          <a href="support.html#about">ABOUT</a>
+          <a href="support.html">SUPPORT</a>
+        </div>
+      </div>
+      <span
+        class="drop"
+        id="drop"
+        style="
+          font-size: 30px;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        "
+        onclick="openNav()"
+        >&#9776;</span
+      >
+      <a
+        href="javascript:void(0)"
+        id="closebtn"
+        class="closebtn"
+        onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="index.html"><img src="imgs/logo.png" alt="logo" /></a>
+      <a href="booking.html"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="currentColor"
+          class="bi bi-bag-plus-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5z"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <div class="container">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScvPn1Yn9tea5qrHUcxeDqulCmFv62OYIzNOXKtKY5i9S3Cwg/viewform?embedded=true"
+        width="390"
+        height="1722"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Loading…</iframe
+      >
+    </div>
+    <div class="footer">
+      <div class="footMenu">
+        <a href="index.html#servies">SERVICES</a>
+        <a href="support.html#about">ABOUT</a>
+        <a href="support.html">SUPPORT</a>
+      </div>
+
+      <a href="index.html"><img src="imgs/logo.png" alt="logo" /> </a>
+
+      <div class="footMenu">
+        <a href="#"
+          >Terms and <br />
+          Conditions</a
+        >
+        <a href="#">Policies</a>
+        <a href="#">order related</a>
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+        document.getElementById("drop").style.opacity = "0";
+        document.getElementById("drop").style.left = "-100px";
+        document.getElementById("closebtn").style.left = "-0.5vh";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+        document.getElementById("drop").style.opacity = "1";
+
+        document.getElementById("drop").style.left = "0px";
+        document.getElementById("closebtn").style.left = "-10vh";
+      }
+    </script>
+  </body>
+</html>
